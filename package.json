@@ -1,9 +1,9 @@
 {
     "name": "qei-validations",
-    "version": "1.2.3",
+    "version": "1.2.6",
     "description": "",
-    "main": "./src/Validations.ts",
-    "types": "./index.d.ts",
+    "main": "./src/index.ts",
+    "types": "./build/index.js",
     "scripts": {
         "build": "rimraf ./build && tsc",
         "dev": "nodemon",
@@ -19,12 +19,10 @@
         "@types/jest": "^28.1.8",
         "jest": "^28.1.3",
         "nodemon": "^2.0.19",
+        "qei-response": "^1.3.4",
         "rimraf": "^3.0.2",
         "ts-jest": "^28.0.8",
         "ts-node": "^10.9.1",
         "typescript": "^4.7.4"
-    },
-    "dependencies": {
-        "qei-response": "^1.3.3"
     }
 }
