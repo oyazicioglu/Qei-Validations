@@ -1,8 +1,8 @@
 {
     "name": "qei-validations",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "",
-    "main": "./index.ts",
+    "main": "./src/Validations.ts",
     "types": "./index.d.ts",
     "scripts": {
         "build": "rimraf ./build && tsc",
