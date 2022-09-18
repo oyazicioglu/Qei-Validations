@@ -8,8 +8,7 @@
         "build": "rimraf ./build && tsc",
         "dev": "nodemon",
         "test": "jest",
-        "test:watch": "jest --watch",
-        "prepare": "npm run build"
+        "test:watch": "jest --watch"
     },
     "keywords": [],
     "author": "",
