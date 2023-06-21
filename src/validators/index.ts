@@ -7,7 +7,7 @@ import { MinLengthValidator } from './MinLength.Validator';
 import { MinValueValidator } from './MinValue.Validator';
 import { NumberValidator } from './Number.Validator';
 import { RequiredValidator } from './Required.Validator';
-import { StringValidator } from './StringValidator';
+import { StringValidator } from './String.Validator';
 import { Validator } from './Validator';
 import { IValidator, ValidatorValueType } from './IValidator';
 
