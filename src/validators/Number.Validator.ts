@@ -8,11 +8,11 @@ export class StringValidator extends Validator implements IValidator {
     }
 
     validate(): ValidatorResult {
-        const valid = !!this.value && typeof this.value === 'string';
+        const valid = !!this.value && typeof this.value === 'number';
         return {
             isValid: valid,
             error: {
-                message: `${this.validatorName} is not string.`,
+                message: `${this.validatorName} is not type of number.`,
                 validatorName: this.validatorName,
             },
         };

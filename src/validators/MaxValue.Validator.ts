@@ -17,7 +17,7 @@ export class MaxValueValidator extends Validator implements IValidator {
     }
 
     validate(): ValidatorResult {
-        const isTypeValid = this.value && typeof this.value === 'number';
+        const isTypeValid = !!this.value && typeof this.value === 'number';
         if (!isTypeValid) {
             return {
                 isValid: false,

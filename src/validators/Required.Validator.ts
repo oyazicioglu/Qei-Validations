@@ -8,7 +8,7 @@ export class RequiredValidator extends Validator implements IValidator {
     }
 
     validate(): ValidatorResult {
-        const valid = this.value && this.value !== '' && this.value !== 0;
+        const valid = !!this.value && this.value !== '' && this.value !== 0;
         return {
             isValid: valid,
             error: {
