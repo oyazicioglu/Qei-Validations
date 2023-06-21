@@ -1,6 +1,13 @@
+import { IValidator } from '../src/validators/IValidator';
 import { StringValidator } from '../src/validators/StringValidator';
+
 describe('String Validator Test', () => {
-    const stringValidator = new StringValidator('jane', 'username');
+    let stringValidator: IValidator;
+
+    beforeEach(() => {
+        stringValidator = new StringValidator('jane', 'username');
+    });
+
     test('Value should be jane', () => {
         expect(stringValidator.value).toEqual('jane');
     });
