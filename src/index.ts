@@ -9,6 +9,9 @@ import {
     ValidatorError,
     ValidatorResult,
     ValidatorValueType,
+    NumberValidator,
+    EmailValidator,
+    Validator,
 } from './validators';
 import { IValidation, ValidationResult, Validation } from './validation';
 
@@ -26,4 +29,7 @@ export {
     MinLengthValidator,
     MaxValueValidator,
     MinValueValidator,
+    NumberValidator,
+    EmailValidator,
+    Validator,
 };

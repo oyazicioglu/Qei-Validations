@@ -1,6 +1,6 @@
 {
     "name": "qei-validations",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Input Validation Suite",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -13,7 +13,7 @@
         "prepare": "npm run build",
         "preversion": "npm run lint",
         "version": "git add -A src",
-        "prepublish": "npm run test && npm run lint && npm run build ",
+        "prepublish": "npm run test && npm run build ",
         "postversion": "git push && git push --tags"
     },
     "author": "Ömer YAZICIOĞLU",
