@@ -1,9 +1,9 @@
 import { ValidatorResult } from './Validator.Result';
-import { IValidator, ValidatorValueType } from './IValidator';
+import { IValidator } from './IValidator';
 import { Validator } from './Validator';
 
-export class StringValidator extends Validator implements IValidator {
-    constructor(value: ValidatorValueType, validatorName: string) {
+export class NumberValidator extends Validator implements IValidator {
+    constructor(value: number, validatorName: string) {
         super(value, validatorName);
     }
 
