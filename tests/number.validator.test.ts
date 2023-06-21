@@ -1,5 +1,4 @@
-import { IValidator } from '../src/validators/IValidator';
-import { NumberValidator } from '../src/validators/Number.Validator';
+import { NumberValidator, IValidator } from '../src/validators';
 describe('Number Validator Test', () => {
     let numberValidator: IValidator;
 

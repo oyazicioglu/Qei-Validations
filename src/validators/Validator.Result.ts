@@ -1,4 +1,4 @@
-import { ValidatorError } from "../validation/Validation.Error";
+import { ValidatorError } from './Validator.Error';
 
 export interface ValidatorResult {
     isValid: boolean;

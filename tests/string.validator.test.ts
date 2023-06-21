@@ -1,5 +1,4 @@
-import { IValidator } from '../src/validators/IValidator';
-import { StringValidator } from '../src/validators/StringValidator';
+import { StringValidator, IValidator } from '../src/validators';
 
 describe('String Validator Test', () => {
     let stringValidator: IValidator;
