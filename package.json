@@ -1,7 +1,7 @@
 {
-    "name": "qei-datatable",
-    "version": "0.1.2",
-    "description": "Data Table Logic",
+    "name": "qei-validations",
+    "version": "0.1.0",
+    "description": "Input Validation Suite",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
@@ -34,6 +34,6 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/oyazicioglu/data-table.git"
+        "url": "https://github.com/oyazicioglu/Qei-Validations.git"
     }
 }
