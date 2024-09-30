@@ -29,7 +29,7 @@ export class Validation implements IValidation {
 
     validateAll(): ValidationResult {
         let allValid = true;
-        let validatorErrors: ValidatorError[] = [];
+        const validatorErrors: ValidatorError[] = [];
 
         for (const validator of this.validators) {
             const validationResult = validator.validate();
