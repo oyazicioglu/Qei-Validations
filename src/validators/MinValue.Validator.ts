@@ -17,17 +17,6 @@ export class MinValueValidator extends Validator implements IValidator {
     }
 
     validate(): ValidatorResult {
-        const isTypeValid = !!this.value && typeof this.value === 'number';
-        if (!isTypeValid) {
-            return {
-                isValid: false,
-                error: {
-                    message: `${this.validatorName} must be type of number | Number.`,
-                    validatorName: this.validatorName,
-                },
-            };
-        }
-
         const valid = (this.value as number) > this.minValue;
         return {
             isValid: valid,

@@ -17,17 +17,6 @@ export class MaxLengthValidator extends Validator implements IValidator {
     }
 
     validate(): ValidatorResult {
-        const isTypeValid = !!this.value && typeof this.value === 'string';
-        if (!isTypeValid) {
-            return {
-                isValid: false,
-                error: {
-                    message: `${this.validatorName} must be type of string | String.`,
-                    validatorName: this.validatorName,
-                },
-            };
-        }
-
         const valid = this.value.toString().length <= this.maxLength;
         return {
             isValid: valid,

@@ -9,7 +9,7 @@ import { NumberValidator } from './Number.Validator';
 import { RequiredValidator } from './Required.Validator';
 import { StringValidator } from './String.Validator';
 import { Validator } from './Validator';
-import { IValidator, ValidatorValueType } from './IValidator';
+import type { IValidator, ValidatorValueType } from './IValidator';
 
 export {
     Validator,
@@ -23,6 +23,6 @@ export {
     NumberValidator,
     RequiredValidator,
     StringValidator,
-    IValidator,
-    ValidatorValueType,
+    type IValidator,
+    type ValidatorValueType,
 };
